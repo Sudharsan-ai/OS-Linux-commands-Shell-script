@@ -790,7 +790,7 @@ $ ./ifcompound.sh
 ![Screenshot From 2025-05-05 16-35-44](https://github.com/user-attachments/assets/36fe5686-f941-4fab-9977-c7cc7370e622)
 
 # using the case command
-cat >c asecheck.sh 
+cat > casecheck.sh 
 ```bash
 case $USER in
 Ram | Robert)
@@ -844,6 +844,7 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+
 $ ./untiltest.sh
  
 ## OUTPUT
@@ -861,7 +862,9 @@ done
  ```
  
 $ chmod 755 forin1.sh
+
 $ ./forin1.sh
+
 ## OUTPUT
  ![Screenshot From 2025-05-05 16-37-16](https://github.com/user-attachments/assets/10a40709-a84f-48e9-967f-a1bbe5e63e70)
 
@@ -877,7 +880,9 @@ done
  ```
  
 $ chmod 755 forin2.sh
+
 $ ./forin2.sh
+
 ## OUTPUT
  ![Screenshot From 2025-05-05 16-37-31](https://github.com/user-attachments/assets/e4c2a463-3d8d-4450-bafd-627273375c7b)
 
@@ -892,7 +897,9 @@ echo "word:$test"
 done
 ```
 $ chmod 755 forin3.sh
+
 $ ./forin3.sh 
+
 ## OUTPUT
 ![Screenshot From 2025-05-05 16-38-18](https://github.com/user-attachments/assets/938c6c3a-052d-4def-8e2b-66c4ca8674f6)
 
@@ -919,7 +926,9 @@ do
 done
 ```
 $ chmod 777 forinfile.sh
+
 $ ./forinfile.sh
+
 ## OUTPUT
 
 ![Screenshot From 2025-05-05 16-38-35](https://github.com/user-attachments/assets/7be9eb97-cdbd-4dba-ad3e-addc24e1b318)
@@ -935,6 +944,7 @@ echo "The value of i is $i"
 done
 ````
 $ chmod 755 forctype.sh
+
 $ ./forctype.sh 
 
  ## OUTPUT
@@ -950,6 +960,7 @@ echo "$a - $b"
 done
 ```
 $ chmod 755 forctype1.sh
+
 $ ./forctype1.sh 
 
 ## OUTPUT
@@ -969,8 +980,10 @@ done
 done
 ```
 $ chmod 755 fornested1.sh 
+
 $ ./fornested1.sh 
- ## OUTPUT
+
+## OUTPUT
 ![Screenshot From 2025-05-05 16-39-07](https://github.com/user-attachments/assets/d2700b10-31fd-4ba6-b38b-f112cfeb90dd)
 
  
@@ -989,6 +1002,7 @@ done
 echo "The for loop is completed“
 ```
 $ chmod 755 forbreak.sh
+
 $ ./forbreak.sh 
 
 ## OUTPUT
@@ -1046,6 +1060,7 @@ echo "Hello $name, welcome to my program."
 
 ``` 
 $ chmod 755 exread1.sh 
+
 $ ./exread1.sh 
 
 ## OUTPUT
@@ -1087,6 +1102,7 @@ cat > argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
+
 $ ./argshift.sh 1 2 3
 
 ## OUTPUT
@@ -1106,7 +1122,9 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift1.sh
+
 $ ./argshift1.sh 1 2 3
+
 ## OUTPUT
 
  ![Screenshot From 2025-05-05 16-41-25](https://github.com/user-attachments/assets/309d6b40-42d6-494c-9b87-6c6c864b9076)
@@ -1122,7 +1140,9 @@ done
 set +x
 ```
 $ chmod 777 argshift2.sh
-$ ./argshift2.sh 1 2 3
+$
+./argshift2.sh 1 2 3
+
 ## OUTPUT
  ![Screenshot From 2025-05-05 16-41-43](https://github.com/user-attachments/assets/1f37e4f9-43d9-4b1d-838b-45787da5032f)
 
@@ -1154,7 +1174,8 @@ obcdfghj
 bcdfghj
 ubcdfghj
 ```
-awk -f nc.awk data.dat
+$ awk -f nc.awk data.dat
+
 ## OUTPUT 
 ![Screenshot From 2025-05-05 16-42-19](https://github.com/user-attachments/assets/2ad354f1-de44-4ef1-93ca-5bbbd8b88e7a)
  
@@ -1184,7 +1205,9 @@ else
 fi
 ```
 $ chmod 777 palindrome.sh
+
 $ ./palindrome.sh 1 2 3
+
 ## OUTPUT 
 
 ![Screenshot From 2025-05-05 16-42-42](https://github.com/user-attachments/assets/db2c7b8a-9342-4c12-a091-1f142da56816)
