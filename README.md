@@ -30,6 +30,9 @@ s.n. dasgupta
 sumit chakrobarty
 ^d
 ```
+## OUTPUT
+![alt text](1.png)
+
 cat > file2
 ```
 anil aggarwal
@@ -39,27 +42,31 @@ lalit chowdury
 s.n. dasgupta
 ^d
 ```
+## OUTPUT
+![alt text](2.png)
+
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
-
+![alt text](3.png)
 
 cat < file2
 ## OUTPUT
-
+![alt text](4.png)
 
 # Comparing Files
 cmp file1 file2
+
 ## OUTPUT
- 
+ ![alt text](5.png)
+
 comm file1 file2
  ## OUTPUT
-
+![alt text](6.png)
  
 diff file1 file2
 ## OUTPUT
-
+![alt text](7.png)
 
 #Filters
 
@@ -79,68 +86,64 @@ cat > file22
 ^d
 ```
 
-
 cut -c1-3 file11
 ## OUTPUT
-
-
-
+![alt text](8.png)
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
-
+![alt text](9.png)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![alt text](10.png)
 
 cat < newfile 
 ```
 Hello world
 hello world
 ^d
-````
+```
 cat > newfile 
 Hello world
 hello world
  
 grep Hello newfile 
 ## OUTPUT
-
+![alt text](11.png)
 
 
 grep hello newfile 
 ## OUTPUT
-
-
+![alt text](12.png)
 
 
 grep -v hello newfile 
 ## OUTPUT
-
+![alt text](13.png)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![alt text](14.png)
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![alt text](15.png)
 
 
 
-
-grep -R ubuntu /etc
+grep -R "kalilinux" /etc
 ## OUTPUT
-
+![alt text](16.png)
 
 
 grep -w -n world newfile   
 ## OUTPUT
-
+![alt text](17.png)
 
 cat < newfile 
 ```
@@ -307,6 +310,7 @@ sed -n '2,4{s/^/$/;p}' file23
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
 
 
 #Sorting File content
@@ -336,7 +340,7 @@ uniq file22
 
 
 
-#Using tr command
+## Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
@@ -364,7 +368,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 
 
 
-#Backup commands
+## Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
 
